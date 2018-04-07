@@ -1,1 +1,1 @@
-# wordpress-tips
+# Tips about Wordpress development
