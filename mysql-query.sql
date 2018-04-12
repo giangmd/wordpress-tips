@@ -16,7 +16,7 @@ WHERE NOT EXISTS ( 
 	SELECT * 
 	FROM wp_term_relationships 
 	WHERE a.ID =wp_term_relationships.object_id 
-)
+) AND a.post_type="document"
 
 -- End
 -- --------------------------------------------------------
